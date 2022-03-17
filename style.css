@@ -8,6 +8,7 @@ h1, h2 {
 
 body {
   font-family: 'Open Sans', sans-serif;
+  background-image: url(https://media.giphy.com/media/d7SnByEMkrdeoVQ2lT/giphy.gif);
 }
 
 a {
@@ -23,7 +24,7 @@ a:visited {
 }
 
 .card {
-  background: white;                         /* White background */
+  background: rgb(173, 31, 31);                         /* White background */
   padding: 30px;                             /* Internal space */
   border-radius: 4px;                        /* Small radius */
   box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
@@ -38,6 +39,7 @@ a:visited {
 .container {
   width: 700px;   /* This sets the width */
   margin: 0 auto; /* This automatically sets left/right margins */
+  animation: mymove 5s infinite;
 }
 
 .img-profile {
